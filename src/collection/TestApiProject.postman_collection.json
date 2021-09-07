@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f5cf589f-18e4-48b7-9f7e-22ff9677f7d2",
+		"name": "TestApiProject",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Module1",
+			"item": [
+				{
+					"name": "getApi",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://httpbin.org/get",
+							"protocol": "http",
+							"host": [
+								"httpbin",
+								"org"
+							],
+							"path": [
+								"get"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
